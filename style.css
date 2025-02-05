@@ -1,0 +1,134 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base styling */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    border: 4px solid #fff;
+    border-radius: 8px;
+}
+
+/* Section styling */
+section {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    color: #ff6f61;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ff6f61;
+}
+
+section p {
+    margin-bottom: 15px;
+}
+
+/* List styling (ul and ol) */
+section ul,
+section ol {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table thead {
+    background: #ff6f61;
+    color: #fff;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Iframe styling for video */
+iframe {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Footer styling */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Link styling */
+a {
+    color: #ff6f61;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Max-width for key elements */
+header,
+section,
+footer {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+}
